@@ -3,3 +3,5 @@ script: "npm run-script tap"
 node_js:
   - "0.11"
   - "0.10"
+services:
+  - couchdb

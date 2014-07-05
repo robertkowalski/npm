@@ -3,7 +3,5 @@ script: "npm run-script tap"
 node_js:
   - "0.11"
   - "0.10"
-services:
-  - couchdb
 before_script:
   - sudo service couchdb stop

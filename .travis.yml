@@ -6,4 +6,4 @@ node_js:
 services:
   - couchdb
 before_script:
-  - couchdb -V
+  - sudo service couchdb stop
